@@ -162,7 +162,7 @@ console.log(Object.entries(obj));
   
  let students = [
      {name: "Oscar"},
-     {name: "Marianela"},
+     {name: "Franco"},
      {name: "Luis"},
      {name: "pepe"}
  ];
@@ -182,13 +182,6 @@ console.log(Object.entries(obj));
 
 //pregunta 13
 
- objectToArray({
-     likes: 2,
-     dislikes: 3,
-     followers: 10
-   })  [["likes", 2], ["dislikes", 3], ["followers", 10]]
-
-
 //pregunta 14
   
 
@@ -203,14 +196,6 @@ console.log(Object.entries(obj));
  console.log(sumaCuadrados(3));
 
 //pregunta 15
-
- let arr = [2, 3, 1, 0];
-
- let resul = arr.map(function(x) {
-     return x * arr.length;
- });
-
- console.log(resul);
 
 
 //pregunta 16
@@ -241,7 +226,6 @@ console.log(Object.entries(obj));
 
 //pregunta 18
 
- let arr = [1, 2, 3, "x", "y", 10];
 
  let result = arr.filter(e => typeof e !== 'string');
 
